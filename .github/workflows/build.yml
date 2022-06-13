@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
       inputs:
         package_name:
-          description: "Package name of the game:"
+          description: "请输入需要Dump包名:"
           required: true
 
 jobs:
